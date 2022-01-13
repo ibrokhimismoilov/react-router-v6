@@ -25,11 +25,3 @@
 ##### <NavLink /> - v5 bilan bir hil.
 
 ##### useMatch('to') - to uchun berilgan string browserLocationni ohhirgi urlga tengligini tekshiradi.
-
-<br>
-
-## 3-dars
-
-##### useParams() - v5 bilan bir hil.
-
-##### useMatch('to') - to uchun berilgan string browserLocationni ohhirgi urlga tengligini tekshiradi.
