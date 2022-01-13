@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import { Link, Outlet, useMatch } from "react-router-dom";
 import { Children } from "react/cjs/react.production.min";
 
@@ -17,9 +16,10 @@ const Layout = () => {
   return (
     <>
       <header>
-        <NavLink to="/">Home</NAv>
-        <CustomLink to="/about">About</CustomLink>
-        <CustomLink to="/posts">Blog</CustomLink>
+        <CustomLink to="/">Home</CustomLink>{" "}
+        <CustomLink to="/about">About</CustomLink>{" "}
+        <CustomLink to="/posts">Blog</CustomLink>{" "}
+        <CustomLink to="/posts/new">Create Blog</CustomLink>{" "}
       </header>
       <Outlet />
       <footer>
